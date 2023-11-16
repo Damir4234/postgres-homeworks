@@ -16,8 +16,6 @@ if __name__ == "__main__":
         "orders": os.path.join(csv_folder, "orders_data.csv")
     }
 
-
-
     connection = psycopg2.connect(
         host='localhost',
         database='north',
